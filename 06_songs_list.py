@@ -14,7 +14,8 @@ violator_songs_list = [
     ['Blue Dress', 4.29],
     ['Clean', 5.83],
 ]
-
+time_song = violator_songs_list[3][1] + violator_songs_list[5][1] + violator_songs_list[-1][1]
+print(time_song)
 # распечатайте общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean' в формате
 #   Три песни звучат ХХХ минут
 # Обратите внимание, что делать много вычислений внутри print() - плохой стиль.
@@ -34,7 +35,10 @@ violator_songs_dict = {
     'Blue Dress': 4.18,
     'Clean': 5.68,
 }
-
+time_song = violator_songs_dict['Sweetest Perfection'] + violator_songs_dict['Policy of Truth'] + violator_songs_dict['Blue Dress']
+print("А другие три песни звучат %s минут" %time_song)
+print("А другие три песни звучат %s минут" %round(time_song,0))
+print("А другие три песни звучат %s минут" %int(time_song))
 # распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress'
 #   А другие три песни звучат ХХХ минут
 
